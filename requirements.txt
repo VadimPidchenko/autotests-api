@@ -3,3 +3,4 @@ grpcio-tools==1.76.0
 protobuf==6.33.5
 setuptools==80.10.2
 typing_extensions==4.15.0
+websockets==16.0
