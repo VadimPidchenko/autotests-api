@@ -2,7 +2,7 @@ import httpx
 from tools.fakers import get_random_email
 
 create_user_payload = {
-    "email": get_random_email(),  # Используем функцию для генерации случайного email
+    "email": get_random_email(),
     "password": "string",
     "lastName": "string",
     "firstName": "string",
