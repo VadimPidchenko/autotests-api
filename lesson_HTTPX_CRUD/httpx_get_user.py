@@ -32,7 +32,8 @@ get_user_headers = {
 
 get_user_response = httpx.get(
     f'http://localhost:8000/api/v1/users/{create_user_response_data['user']['id']}',
-    headers=get_user_headers)
+    headers=get_user_headers
+)
 
 get_user_response_data = get_user_response.json()
 
