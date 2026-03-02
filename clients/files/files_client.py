@@ -4,11 +4,9 @@ from httpx import Response
 
 from clients.api_client import APIClient
 from clients.private_http_builder import (
-    AuthenticationCredentialsDict,
     get_private_http_client,
+    AuthenticationCredentialsSchema
 )
-
-
 
 class File(TypedDict):
     """
@@ -80,10 +78,11 @@ class FilesClient(APIClient):
         return response.json()
 
 
-def get_files_client(user: AuthenticationCredentialsDict) -> FilesClient:
+def get_files_client(user: AuthenticationCredentialsSchema) -> FilesClient:
     """
     Функция создаёт экземпляр FilesClient с уже настроенным HTTP-клиентом.
 
+    :param user: Объект AuthenticationCredentialsSchema с email и password.
     :return: Готовый к использованию FilesClient.
     """
     return FilesClient(client=get_private_http_client(user))

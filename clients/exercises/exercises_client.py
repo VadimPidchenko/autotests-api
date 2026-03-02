@@ -5,9 +5,8 @@ from httpx import Response
 from clients.api_client import APIClient
 from clients.private_http_builder import (
     get_private_http_client,
-    AuthenticationCredentialsDict,
+    AuthenticationCredentialsSchema
 )
-
 
 class Exercise(TypedDict):
     """
@@ -186,11 +185,11 @@ class ExercisesClient(APIClient):
         return response.json()
 
 
-def get_exercise_client(user: AuthenticationCredentialsDict) -> ExercisesClient:
+def get_exercise_client(user: AuthenticationCredentialsSchema) -> ExercisesClient:
     """
     Функция создаёт экземпляр ExercisesClient с уже настроенным HTTP-клиентом.
 
-    :param user: email и пароль
+    :param user: Объект AuthenticationCredentialsSchema с email и password.
     :return: Готовый к использованию ExercisesClient.
     """
     return ExercisesClient(client=get_private_http_client(user))

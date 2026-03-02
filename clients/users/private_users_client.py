@@ -5,7 +5,7 @@ from typing import TypedDict
 
 from clients.private_http_builder import (
     get_private_http_client,
-    AuthenticationCredentialsDict,
+    AuthenticationCredentialsSchema
 )
 
 class User(TypedDict):
@@ -86,10 +86,11 @@ class PrivateUsersClient(APIClient):
         return response.json()
 
 
-def get_private_users_client(user: AuthenticationCredentialsDict) -> PrivateUsersClient:
+def get_private_users_client(user: AuthenticationCredentialsSchema) -> PrivateUsersClient:
     """
     Функция создаёт экземпляр PrivateUsersClient с уже настроенным HTTP-клиентом.
 
+    :param user: Объект AuthenticationCredentialsSchema с email и password.
     :return: Готовый к использованию PrivateUsersClient.
     """
     return PrivateUsersClient(client=get_private_http_client(user))

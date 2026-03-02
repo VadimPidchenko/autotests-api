@@ -6,7 +6,7 @@ from clients.api_client import APIClient
 from clients.files.files_client import File
 from clients.private_http_builder import (
     get_private_http_client,
-    AuthenticationCredentialsDict,
+    AuthenticationCredentialsSchema
 )
 from clients.users.public_users_client import User
 
@@ -128,10 +128,11 @@ class CoursesClient(APIClient):
         return response.json()
 
 
-def get_courses_client(user: AuthenticationCredentialsDict) -> CoursesClient:
+def get_courses_client(user: AuthenticationCredentialsSchema) -> CoursesClient:
     """
     Функция создаёт экземпляр CoursesClient с уже настроенным HTTP-клиентом.
 
+    :param user: Объект AuthenticationCredentialsSchema с email и password.
     :return: Готовый к использованию CoursesClient.
     """
     return CoursesClient(client=get_private_http_client(user))

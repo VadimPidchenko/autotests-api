@@ -1,6 +1,8 @@
 from clients.courses.courses_client import get_courses_client, CreateCourseRequestDict
 from clients.files.files_client import get_files_client, CreateFileRequestDict
-from clients.private_http_builder import AuthenticationCredentialsDict
+from clients.private_http_builder import (
+    AuthenticationCredentialsSchema,
+)
 from clients.users.public_users_client import get_public_users_client, CreateRequestDict
 from lesson_HTTPX_CRUD.tools.fakers import get_random_email
 
@@ -16,7 +18,7 @@ create_user_request = CreateRequestDict(
 
 create_user_response = public_user_client.create_user(create_user_request)
 
-authentication_user = AuthenticationCredentialsDict(
+authentication_user =  AuthenticationCredentialsSchema(
     email=create_user_request["email"],
     password=create_user_request["password"]
 )
