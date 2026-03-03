@@ -1,32 +1,34 @@
 from clients.courses.courses_client import get_courses_client, CreateCourseRequestDict
-from clients.files.files_client import get_files_client, CreateFileRequestDict
+from clients.files.files_client import get_files_client
+from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import (
     AuthenticationCredentialsSchema,
 )
-from clients.users.public_users_client import get_public_users_client, CreateRequestDict
+from clients.users.public_users_client import get_public_users_client
+from clients.users.users_schema import CreateUserRequestSchema
 from lesson_HTTPX_CRUD.tools.fakers import get_random_email
 
 public_user_client = get_public_users_client()
 
-create_user_request = CreateRequestDict(
-    email=get_random_email(),
-    password="string",
-    lastName="str",
-    firstName="str",
-    middleName="str"
+create_user_request = CreateUserRequestSchema(
+    email = get_random_email(),
+    password = "string",
+    last_name = "Petrovich",
+    first_name = "Ivan",
+    middle_name = "Sorokin"
 )
 
 create_user_response = public_user_client.create_user(create_user_request)
 
 authentication_user =  AuthenticationCredentialsSchema(
-    email=create_user_request["email"],
-    password=create_user_request["password"]
+    email=create_user_request.email,
+    password=create_user_request.password
 )
 
 file_client = get_files_client(authentication_user)
 course_client = get_courses_client(authentication_user)
 
-create_file_request =  CreateFileRequestDict(
+create_file_request =  CreateFileRequestSchema(
     filename = "image.png",
     directory= "courses",
     upload_file= "testdata/files/image.png"
@@ -41,8 +43,8 @@ create_course_request = CreateCourseRequestDict(
     minScore = 10,
     description = "Python API course",
     estimatedTime = "2 weeks",
-    previewFileId = create_file_response["file"]["id"],
-    createdByUserId = create_user_response["user"]["id"]
+    previewFileId = create_file_response.file.id,
+    createdByUserId = create_user_response.user.id
 )
 
 create_course_response = course_client.create_course(create_course_request)

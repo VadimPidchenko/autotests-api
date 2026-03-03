@@ -1,38 +1,12 @@
 from httpx import Response
 
 from clients.api_client import APIClient
-from typing import TypedDict
 
 from clients.private_http_builder import (
     get_private_http_client,
     AuthenticationCredentialsSchema
 )
-
-class User(TypedDict):
-    """
-    Описание структуры пользователя.
-    """
-    id: str
-    email: str
-    lastName: str
-    firstName: str
-    middleName: str
-
-class GetUserResponseDict(TypedDict):
-    """
-    Описание структуры ответа на получение пользователя.
-    """
-    user: User
-
-class UpdateUserRequestDict(TypedDict):
-    """
-    Структура Payload для обновления (patch) пользователя
-    """
-    email: str | None
-    lastName: str | None
-    firstName: str | None
-    middleName: str | None
-
+from clients.users.users_schema import UpdateUserRequestSchema, GetUserResponseSchema
 
 class PrivateUsersClient(APIClient):
     """
@@ -56,15 +30,15 @@ class PrivateUsersClient(APIClient):
         """
         return self.get(f"/api/v1/users/{user_id}")
 
-    def update_user_api(self, user_id: str, request: UpdateUserRequestDict) -> Response:
+    def update_user_api(self, user_id: str, request: UpdateUserRequestSchema) -> Response:
         """
         Метод обновления пользователя по идентификатору.
 
         :param user_id: Идентификатор пользователя.
-        :param request: Словарь с email, lastName, firstName, middleName.
+        :param request: Объект UpdateUserRequestSchema с email, lastName, firstName, middleName.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.patch(f"/api/v1/users/{user_id}", json=request)
+        return self.patch(f"/api/v1/users/{user_id}", json=request.model_dump(by_alias=True))
 
     def delete_user_api(self, user_id: str) -> Response:
         """
@@ -75,15 +49,15 @@ class PrivateUsersClient(APIClient):
         """
         return self.delete(f"/api/v1/users/{user_id}")
 
-    def get_user(self, user_id: str)-> GetUserResponseDict:
+    def get_user(self, user_id: str)-> GetUserResponseSchema:
         """
         Метод получения пользователя по идентификатору.
 
         :param user_id: Идентификатор пользователя.
-        :return: Распарсеный ответ от сервера в виде словаря
+        :return: Возвращает ответ от сервера в виде объекта GetUserResponseSchema
         """
         response = self.get_user_api(user_id)
-        return response.json()
+        return GetUserResponseSchema.model_validate_json(response.text)
 
 
 def get_private_users_client(user: AuthenticationCredentialsSchema) -> PrivateUsersClient:

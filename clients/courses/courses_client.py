@@ -3,12 +3,12 @@ from typing import TypedDict
 from httpx import Response
 
 from clients.api_client import APIClient
-from clients.files.files_client import File
+from clients.files.files_schema import FileSchema
 from clients.private_http_builder import (
     get_private_http_client,
     AuthenticationCredentialsSchema
 )
-from clients.users.public_users_client import User
+from clients.users.users_schema import UserSchema
 
 
 class Course(TypedDict):
@@ -20,9 +20,9 @@ class Course(TypedDict):
     maxScore: str
     minScore: str
     description: str
-    previewFile: File
+    previewFile: FileSchema
     estimatedTime: str
-    createdByUser : User
+    createdByUser : UserSchema
 
 class GetCoursesQueryDict(TypedDict):
     """
