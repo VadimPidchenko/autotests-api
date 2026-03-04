@@ -5,6 +5,12 @@ from jsonschema.validators import Draft202012Validator
 
 
 def validate_json_schema(instance: Any, schema: dict) -> None:
+    """
+    Метод валидирует, соответствует ли JSON-объект (instance) заданной JSON-схеме (schema).
+    :param instance: JSON данные, которые нужно проверить.
+    :param schema: Ожидаемая JSON-схема.
+    :raises jsonschema.exceptions.ValidationError: Если instance не соответствует schema.
+    """
     validate(
         instance=instance,
         schema=schema,
