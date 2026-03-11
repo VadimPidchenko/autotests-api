@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 
 from tools.fakers import fake
 
@@ -7,9 +7,11 @@ class TokenSchema(BaseModel):
     """
     Описание структуры аутентификационных токенов.
     """
-    tokenType: str = Field(alias="tokenType")
-    accessToken: str = Field(alias="accessToken")
-    refreshToken: str = Field(alias="refreshToken")
+    model_config = ConfigDict(validate_by_name=True)
+
+    token_type: str = Field(alias="tokenType")
+    access_token: str = Field(alias="accessToken")
+    refresh_token: str = Field(alias="refreshToken")
 
 class LoginRequestSchema(BaseModel):
     """
@@ -28,4 +30,6 @@ class RefreshRequestSchema(BaseModel):
     """
     Описание структуры запроса для обновления токена.
     """
-    refreshToken: str = Field(alias="refreshToken", default_factory=fake.sentence)
+    model_config = ConfigDict(validate_by_name=True)
+
+    refresh_token: str = Field(alias="refreshToken", default_factory=fake.sentence)

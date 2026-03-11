@@ -1,7 +1,7 @@
 from typing import Any
 
 
-def assert_status_code(actual: Any, expected: Any):
+def assert_status_code(actual: int, expected: int):
     """
     Проверяет, что фактический статус код соответствует ожидаемому
 
@@ -29,4 +29,17 @@ def assert_equal(actual: Any, expected: Any, name: str):
         f"Incorrected value {name}."
         f"Actual value {actual}."
         f"Expected value {expected}."
+    )
+
+def assert_is_true(actual: Any, name: str):
+    """
+    Проверяет, что фактическое значение является истинным.
+
+    :param actual: Фактическое значение
+    :param name: Название проверяемого значения.
+    :raises AssertionError: Если фактическое значение ложно.
+    """
+    assert actual, (
+        f"Incorrect value {name}."
+        f"Expected true value but got {actual}"
     )
