@@ -32,6 +32,6 @@ def get_private_http_client(user: AuthenticationCredentialsSchema) -> Client:
         base_url="http://localhost:8000",
         timeout=10,
         headers={
-            "Authorization": f"Bearer {login_response.token.accessToken}"
+            "Authorization": f"Bearer {login_response.token.access_token}"
         }
     )
