@@ -1,10 +1,6 @@
 import pytest
 from pydantic import BaseModel
 
-from clients.authentication.authentication_client import (
-    get_authentication_client,
-    AuthenticationClient,
-)
 from clients.private_http_builder import AuthenticationCredentialsSchema
 from clients.users.private_users_client import (
     get_private_users_client,
@@ -37,8 +33,8 @@ def public_user_client() -> PublicUsersClient:
 
 
 @pytest.fixture
-def authentication_client() -> AuthenticationClient:
-    return get_authentication_client()
+def private_user_client(function_create_user) -> PrivateUsersClient:
+    return get_private_users_client(function_create_user.authentication_user)
 
 
 @pytest.fixture
@@ -47,8 +43,3 @@ def function_create_user(public_user_client: PublicUsersClient) -> UserFixture:
     response = public_user_client.create_user(request)
 
     return UserFixture(request=request, response=response)
-
-
-@pytest.fixture
-def private_user_client(function_create_user) -> PrivateUsersClient:
-    return get_private_users_client(function_create_user.authentication_user)
