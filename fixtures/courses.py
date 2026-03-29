@@ -26,8 +26,8 @@ def function_create_course(
     function_create_user: UserFixture,
 ) -> CoursesFixture:
     request = CreateCourseRequestSchema(
-        previewFileId=function_create_file.response.file.id,
-        createdByUserId=function_create_user.response.user.id,
+        preview_file_id=function_create_file.response.file.id,
+        created_by_user_id=function_create_user.response.user.id,
     )
 
     response = courses_client.create_course(request)
