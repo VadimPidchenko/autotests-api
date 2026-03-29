@@ -1,7 +1,8 @@
+from functools import lru_cache
 from typing import TypedDict
 
 from httpx import Client
-from pydantic import EmailStr, BaseModel
+from pydantic import EmailStr, BaseModel, ConfigDict
 
 from clients.authentication.authentication_client import (
     get_authentication_client
@@ -13,9 +14,12 @@ class AuthenticationCredentialsSchema(BaseModel):
     """
     Описание структуры запроса на получение авторизованного клиента
     """
+    model_config = ConfigDict(frozen=True)
+
     email: EmailStr
     password: str
 
+@lru_cache(maxsize=None)
 def get_private_http_client(user: AuthenticationCredentialsSchema) -> Client:
     """
     Функция создаёт экземпляр httpx.Client с аутентификацией пользователя.

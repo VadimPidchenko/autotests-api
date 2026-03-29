@@ -33,7 +33,7 @@ def public_user_client() -> PublicUsersClient:
 
 
 @pytest.fixture
-def private_user_client(function_create_user) -> PrivateUsersClient:
+def private_user_client(function_create_user: UserFixture) -> PrivateUsersClient:
     return get_private_users_client(function_create_user.authentication_user)
 
 
