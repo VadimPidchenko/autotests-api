@@ -7,21 +7,34 @@ class FileSchema(BaseModel):
     """
     Описание структуры файла.
     """
+
     id: str
     filename: str
     directory: str
     url: HttpUrl
 
+
 class CreateFileRequestSchema(BaseModel):
     """
     Описание структуры запроса на создание файла.
     """
-    filename: str = Field(default_factory=lambda : f"{fake.uuid4()}.png")
+
+    filename: str = Field(default_factory=lambda: f"{fake.uuid4()}.png")
     directory: str = Field(default="tests")
     upload_file: str
+
 
 class CreateFileResponseSchema(BaseModel):
     """
     Описание структуры ответа создания файла.
     """
+
+    file: FileSchema
+
+
+class GetFileResponseSchema(BaseModel):
+    """
+    Описание структуры ответа получения файла.
+    """
+
     file: FileSchema
