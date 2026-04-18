@@ -1,6 +1,8 @@
 from http import HTTPStatus
 
+import allure
 import pytest
+from allure_commons.types import Severity
 
 from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_client import ExercisesClient
@@ -15,6 +17,10 @@ from clients.exercises.exercises_schema import (
 )
 from fixtures.courses import CoursesFixture
 from fixtures.exercises import ExerciseFixture
+from tools.allure.epic import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
+from tools.allure.tags import AllureTags
 from tools.assertions.base import assert_status_code
 from tools.assertions.exercises import (
     assert_create_exercise_response,
@@ -28,7 +34,15 @@ from tools.assertions.schema import validate_json_schema
 
 @pytest.mark.exercises
 @pytest.mark.regression
+@allure.tag(AllureTags.AUTHENTICATION, AllureTags.REGRESSION)
+@allure.epic(AllureEpic.LMS)
+@allure.feature(AllureFeature.EXERCISES)
 class TestExercises:
+
+    @allure.severity(Severity.BLOCKER)
+    @allure.story(AllureStory.CREATE_ENTITY)
+    @allure.tag(AllureTags.CREATE_ENTITY)
+    @allure.title("Create exercise")
     def test_create_exercise(
         self, exercises_client: ExercisesClient, function_create_course: CoursesFixture
     ):
@@ -43,6 +57,10 @@ class TestExercises:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.severity(Severity.BLOCKER)
+    @allure.story(AllureStory.GET_ENTITY)
+    @allure.tag(AllureTags.GET_ENTITY)
+    @allure.title("Get exercise")
     def test_get_exercise(
         self,
         exercises_client: ExercisesClient,
@@ -58,6 +76,10 @@ class TestExercises:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.severity(Severity.CRITICAL)
+    @allure.story(AllureStory.UPDATE_ENTITY)
+    @allure.tag(AllureTags.UPDATE_ENTITY)
+    @allure.title("Update exercise")
     def test_update_exercise(
         self,
         exercises_client: ExercisesClient,
@@ -74,6 +96,10 @@ class TestExercises:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.severity(Severity.CRITICAL)
+    @allure.story(AllureStory.DELETE_ENTITY)
+    @allure.tag(AllureTags.DELETE_ENTITY)
+    @allure.title("Delete exercise")
     def test_delete_exercise(
             self,
             exercises_client: ExercisesClient,
@@ -90,6 +116,10 @@ class TestExercises:
 
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
 
+    @allure.severity(Severity.BLOCKER)
+    @allure.story(AllureStory.GET_ENTITIES)
+    @allure.tag(AllureTags.GET_ENTITIES)
+    @allure.title("Get exercises")
     def test_get_exercises(
         self,
         exercises_client: ExercisesClient,
