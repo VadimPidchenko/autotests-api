@@ -37,10 +37,13 @@ from tools.assertions.schema import validate_json_schema
 @allure.tag(AllureTags.AUTHENTICATION, AllureTags.REGRESSION)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.EXERCISES)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.EXERCISES)
 class TestExercises:
 
     @allure.severity(Severity.BLOCKER)
     @allure.story(AllureStory.CREATE_ENTITY)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     @allure.tag(AllureTags.CREATE_ENTITY)
     @allure.title("Create exercise")
     def test_create_exercise(
@@ -59,6 +62,7 @@ class TestExercises:
 
     @allure.severity(Severity.BLOCKER)
     @allure.story(AllureStory.GET_ENTITY)
+    @allure.sub_suite(AllureStory.GET_ENTITY)
     @allure.tag(AllureTags.GET_ENTITY)
     @allure.title("Get exercise")
     def test_get_exercise(
@@ -78,6 +82,7 @@ class TestExercises:
 
     @allure.severity(Severity.CRITICAL)
     @allure.story(AllureStory.UPDATE_ENTITY)
+    @allure.sub_suite(AllureStory.UPDATE_ENTITY)
     @allure.tag(AllureTags.UPDATE_ENTITY)
     @allure.title("Update exercise")
     def test_update_exercise(
@@ -98,6 +103,7 @@ class TestExercises:
 
     @allure.severity(Severity.CRITICAL)
     @allure.story(AllureStory.DELETE_ENTITY)
+    @allure.sub_suite(AllureStory.DELETE_ENTITY)
     @allure.tag(AllureTags.DELETE_ENTITY)
     @allure.title("Delete exercise")
     def test_delete_exercise(
@@ -118,6 +124,7 @@ class TestExercises:
 
     @allure.severity(Severity.BLOCKER)
     @allure.story(AllureStory.GET_ENTITIES)
+    @allure.sub_suite(AllureStory.GET_ENTITIES)
     @allure.tag(AllureTags.GET_ENTITIES)
     @allure.title("Get exercises")
     def test_get_exercises(

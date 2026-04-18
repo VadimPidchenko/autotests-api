@@ -37,10 +37,13 @@ from tools.assertions.schema import validate_json_schema
 @allure.tag(AllureTags.AUTHENTICATION, AllureTags.REGRESSION)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.FILES)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.FILES)
 class TestFiles:
 
     @allure.severity(Severity.BLOCKER)
     @allure.story(AllureStory.CREATE_ENTITY)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     @allure.tag(AllureTags.CREATE_ENTITY)
     @allure.title("Create file")
     def test_create_file(self, files_client: FilesClient):
@@ -57,6 +60,7 @@ class TestFiles:
 
     @allure.severity(Severity.BLOCKER)
     @allure.story(AllureStory.GET_ENTITY)
+    @allure.sub_suite(AllureStory.GET_ENTITY)
     @allure.tag(AllureTags.GET_ENTITY)
     @allure.title("Get file")
     def test_get_file(
@@ -72,6 +76,7 @@ class TestFiles:
 
     @allure.severity(Severity.NORMAL)
     @allure.story(AllureStory.VALIDATE_ENTITY)
+    @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
     @allure.tag(AllureTags.VALIDATE_ENTITY)
     @allure.title("Create file with empty filename")
     def test_create_file_with_empty_filename(self, files_client: FilesClient):
@@ -89,6 +94,7 @@ class TestFiles:
 
     @allure.severity(Severity.NORMAL)
     @allure.story(AllureStory.VALIDATE_ENTITY)
+    @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
     @allure.tag(AllureTags.VALIDATE_ENTITY)
     @allure.title("Create file with empty directory")
     def test_create_file_with_empty_directory(self, files_client: FilesClient):
@@ -106,6 +112,7 @@ class TestFiles:
 
     @allure.severity(Severity.NORMAL)
     @allure.story(AllureStory.DELETE_ENTITY)
+    @allure.sub_suite(AllureStory.DELETE_ENTITY)
     @allure.tag(AllureTags.DELETE_ENTITY)
     @allure.title("Delete file")
     def test_delete_file(
@@ -128,6 +135,7 @@ class TestFiles:
 
     @allure.severity(Severity.NORMAL)
     @allure.story(AllureStory.VALIDATE_ENTITY)
+    @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
     @allure.tag(AllureTags.VALIDATE_ENTITY)
     @allure.title("Get file with incorrect file id")
     def test_get_file_with_incorrect_file_id(self, files_client: FilesClient):
