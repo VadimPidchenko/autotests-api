@@ -1,5 +1,4 @@
 from functools import lru_cache
-from typing import TypedDict
 
 from httpx import Client
 from pydantic import EmailStr, BaseModel, ConfigDict
@@ -9,6 +8,7 @@ from clients.authentication.authentication_client import (
 )
 from clients.authentication.authentication_schema import LoginRequestSchema
 from clients.event_hooks import curl_event_hook
+from config import settings
 
 
 class AuthenticationCredentialsSchema(BaseModel):
@@ -34,8 +34,8 @@ def get_private_http_client(user: AuthenticationCredentialsSchema) -> Client:
     login_response = authentication_client.login(login_request)
 
     return Client(
-        base_url="http://localhost:8000",
-        timeout=10,
+        base_url=settings.http_client.client_url,
+        timeout=settings.http_client.timeout,
         headers={
             "Authorization": f"Bearer {login_response.token.access_token}"
         },
