@@ -1,20 +1,4 @@
-import curlify2
 from httpx import Request, RequestNotRead
-
-"""
-curl -X 'POST' \
-  'http://localhost:8000/api/v1/users' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "email": "user@example.com",
-  "password": "string",
-  "lastName": "string",
-  "firstName": "string",
-  "middleName": "string"
-}'
-"""
-
 
 def make_curl_from_request(request: Request) -> str:
 

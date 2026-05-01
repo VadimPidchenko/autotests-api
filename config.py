@@ -19,7 +19,7 @@ class TestDataConfig(BaseModel):
 class Settings(BaseSettings):
 
     model_config = SettingsConfigDict(
-        env_file=f".env/{os.getenv("ENV", "")}.env",
+        env_file=f".env/{os.getenv("ENV", "local")}.env",
         env_file_encoding="utf-8",
         env_nested_delimiter="."
     )
