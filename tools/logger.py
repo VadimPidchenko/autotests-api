@@ -3,6 +3,12 @@ import logging
 
 def get_logger(name: str) -> logging.Logger:
 
+    """
+    Функция для инициализации объекта логгера
+    :param name: имя логера
+    :return: настроенный объект Logger
+    """
+
     logger = logging.getLogger(name)
     logger.setLevel(logging.DEBUG)
 
