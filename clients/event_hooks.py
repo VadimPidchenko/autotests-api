@@ -1,6 +1,5 @@
 import allure
-from httpx import Request
-from websockets import Response
+from httpx import Request, Response
 
 from tools.http.curl import make_curl_from_request
 from tools.logger import get_logger
