@@ -49,7 +49,7 @@ class CreateCourseRequestSchema(BaseModel):
     description: str = Field(default_factory=fake.text)
     estimated_time: str = Field(alias="estimatedTime", default_factory=fake.estimated_time)
     preview_file_id: str = Field(alias="previewFileId", default_factory=fake.uuid4)
-    created_by_user_id: str = Field(alias="createdByUserId", default_factory=fake.uuid4)
+    created_by_user_id: str = Field(alias="createdByUserId")
 
 
 class CreateCourseResponseSchema(BaseModel):
