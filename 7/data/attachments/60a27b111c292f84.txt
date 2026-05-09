@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjE2OjUyLjg2NzcyOCIsInVzZXJfaWQiOiJkODM4NDVkOS1hMTZhLTQ5NzctYmUzZC0yZjcxY2RmYzQ5OGMifQ.Pq_4zK7NuY3JYlPuQv3hhV80fHZr1U8Dxw0wXqVuQr8'\
+-H 'content-length: 376'\
+-H 'content-type: application/json'\
+-d '{"title":"Authority research human shake source.","maxScore":54,"minScore":24,"description":"Hold forward and agency part. Analysis even amount local system really.\nDog economy toward week it up. Help stage reality population enough a.","estimatedTime":"9 weeks","previewFileId":"43f76a62-76b2-4ba1-be53-9f57783b2567","createdByUserId":"d83845d9-a16a-4977-be3d-2f71cdfc498c"}'

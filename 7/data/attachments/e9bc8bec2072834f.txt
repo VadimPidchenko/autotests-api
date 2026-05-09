@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjE2OjU0LjkzODA0OSIsInVzZXJfaWQiOiJmMTc3OWY2ZS1kNjI1LTRlODgtYjUxMS00ZDVjMDg1YmJiZTgifQ._BXbuTU1X919Yb7VpYr8JHsyMuJ9PUw7r7CDJrx5vc0'\
+-H 'content-length: 333'\
+-H 'content-type: application/json'\
+-d '{"title":"Consider probably hope.","courseId":"3c1b3ec0-7e96-47ab-8458-3bf0d165ad64","maxScore":71,"minScore":2,"orderIndex":94,"description":"Specific medical medical let. Not Democrat ten itself care skill room left. Task education choose me.\nBag civil defense factor. Skin without leave member window.","estimatedTime":"5 weeks"}'

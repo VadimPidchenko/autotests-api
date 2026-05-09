@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjE2OjUyLjU2MDQwNCIsInVzZXJfaWQiOiI2OWYwYTYwYy02NjU4LTQ1YTktYmQ0YS1iMTYyYjY2NzczNTgifQ.XaFIR2WsjKvuE8V2gz_6Su_DlYMKtCjWJ84mUGvUS7g'\
+-H 'content-length: 394'\
+-H 'content-type: application/json'\
+-d '{"title":"Here series event whose list forget.","maxScore":64,"minScore":24,"description":"Plan mind avoid open girl check leave. Season consider actually down carry.\nEver natural blue last. Create sister measure interesting best business tend computer.","estimatedTime":"7 weeks","previewFileId":"f26465d3-85e0-4003-9bdf-c5ad4abae673","createdByUserId":"69f0a60c-6658-45a9-bd4a-b162b6677358"}'

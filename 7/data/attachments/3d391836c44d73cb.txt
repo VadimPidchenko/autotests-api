@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjE2OjUzLjg4NzAxMSIsInVzZXJfaWQiOiI5ODk1MjcxYS0zNTk2LTQwNDctODA0Mi0yMTIzNmE3NTIxOWYifQ.C1uuU73E7j5OemaYEgOoaWJ9CQITPayIXvmd9yBepug'\
+-H 'content-length: 305'\
+-H 'content-type: application/json'\
+-d '{"title":"Computer hospital mouth bad.","maxScore":82,"minScore":25,"description":"According mention if public own south. Tax movement game western behavior usually.","estimatedTime":"5 weeks","previewFileId":"345b5687-bc92-4c36-ace3-9c3666efd074","createdByUserId":"9895271a-3596-4047-8042-21236a75219f"}'

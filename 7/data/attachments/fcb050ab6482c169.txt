@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjE2OjU0LjE5NjAyMCIsInVzZXJfaWQiOiJkMWFlZTdhYi02Y2I5LTQ5Y2EtYjU2ZC1mMWI2ODJlNmRhMTgifQ.Oe2ck8yvMfhFmwoI7ZgGjeRcA3mu-17x4yw5aQPqBFE'\
+-H 'content-length: 374'\
+-H 'content-type: application/json'\
+-d '{"title":"Condition wall report way try officer.","maxScore":55,"minScore":18,"description":"Into there past expect accept.\nPush fall else early everyone husband. With around player always. Represent story unit add spend ten single.","estimatedTime":"10 weeks","previewFileId":"658d3192-c0fa-467e-92fd-0991ba40746e","createdByUserId":"d1aee7ab-6cb9-49ca-b56d-f1b682e6da18"}'

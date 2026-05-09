@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/686ebef6-3924-48f6-9085-1b92bc3cda08'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjE2OjUwLjkzMjY5MiIsInVzZXJfaWQiOiIzMGQ2M2M3NS0wNGRhLTQzYmEtOWEwMi03Y2Q4MWVhOTQyMjAifQ.T2J9j2s6Ib6j9NwW0vVY6sqoQsjYKSz0o2wBGJnamVc'\
+-H 'content-length: 291'\
+-H 'content-type: application/json'\
+-d '{"title":"Century race form reflect no.","maxScore":72,"minScore":12,"description":"Produce street rate save himself. Learn himself plan. Sign hour want mission.\nHimself size behavior arm player water result action. Successful national up. Human somebody party.","estimatedTime":"10 weeks"}'

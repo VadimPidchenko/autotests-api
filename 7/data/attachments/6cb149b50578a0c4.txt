@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjE2OjUwLjI4MjA4MCIsInVzZXJfaWQiOiI5ZDQyMTkyNS1mZWFkLTRiMmQtYTBkNy1lNTdjNWI4ZDZmNzYifQ.kCCK6tIeNwq0RtmN_4kq13R1P98kb5ySsir-v0GWLMs'\
+-H 'content-length: 372'\
+-H 'content-type: application/json'\
+-d '{"title":"Successful child hair.","maxScore":54,"minScore":14,"description":"Race recently deal. Try positive leave car.\nMake already catch fast. Present should development election. Nothing five hundred increase should body seek.","estimatedTime":"10 weeks","previewFileId":"a7bb27a5-0c12-4208-8bea-8dc6784e9922","createdByUserId":"9d421925-fead-4b2d-a0d7-e57c5b8d6f76"}'

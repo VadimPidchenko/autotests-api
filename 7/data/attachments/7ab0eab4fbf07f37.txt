@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjE2OjU0LjkzODA0OSIsInVzZXJfaWQiOiJmMTc3OWY2ZS1kNjI1LTRlODgtYjUxMS00ZDVjMDg1YmJiZTgifQ._BXbuTU1X919Yb7VpYr8JHsyMuJ9PUw7r7CDJrx5vc0'\
+-H 'content-length: 412'\
+-H 'content-type: application/json'\
+-d '{"title":"Space light rule unit.","maxScore":86,"minScore":6,"description":"Tv report same example floor say test. Study drug last ready test. Side research billion manager center.\nCup may piece couple only tax. Measure many audience mission full. Law or evidence become.","estimatedTime":"6 weeks","previewFileId":"d8c57552-211b-401f-ac9c-ad04b5ea52cb","createdByUserId":"f1779f6e-d625-4e88-b511-4d5c085bbbe8"}'

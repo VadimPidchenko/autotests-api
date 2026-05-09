@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjE2OjUyLjg2NzcyOCIsInVzZXJfaWQiOiJkODM4NDVkOS1hMTZhLTQ5NzctYmUzZC0yZjcxY2RmYzQ5OGMifQ.Pq_4zK7NuY3JYlPuQv3hhV80fHZr1U8Dxw0wXqVuQr8'\
+-H 'content-length: 382'\
+-H 'content-type: application/json'\
+-d '{"title":"Effect teacher interesting generation research hold.","courseId":"19fb6fba-5d94-4ad1-afb8-9897dcd0ad7d","maxScore":60,"minScore":23,"orderIndex":88,"description":"Dinner source compare focus behind. No group game he suddenly.\nIdentify grow scientist beautiful. Be oil for tell later. South enough beat back seat great us.\nStyle chance expect.","estimatedTime":"7 weeks"}'

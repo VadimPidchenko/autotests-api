@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjE2OjUxLjU4MTE3MSIsInVzZXJfaWQiOiJkYzJjYWRiYy1kNWQ2LTRkZTgtODRiZi1iNDQzZGYzZDQzODMifQ.BHC-d3GFNyIwzcjnOBLoat-XazI58p-uy9i0uc8zWUw'\
+-H 'content-length: 392'\
+-H 'content-type: application/json'\
+-d '{"title":"Seat center friend suggest final research second.","maxScore":71,"minScore":25,"description":"Responsibility school near walk traditional record. Apply international drop miss himself staff card. Century sort yeah action morning kind whether.","estimatedTime":"9 weeks","previewFileId":"69c1a898-249b-4e9a-bfa6-0676039279e3","createdByUserId":"dc2cadbc-d5d6-4de8-84bf-b443df3d4383"}'

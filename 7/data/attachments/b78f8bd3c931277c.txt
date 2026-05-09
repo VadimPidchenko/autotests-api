@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:94 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'title' equals to Seat center friend suggest final research second.
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'max_score' equals to 71
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'min_score' equals to 25
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'description' equals to Responsibility school near walk traditional record. Apply international drop miss himself staff card. Century sort yeah action morning kind whether.
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'estimated_time' equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'file_id' equals to 69c1a898-249b-4e9a-bfa6-0676039279e3
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'user_id' equals to dc2cadbc-d5d6-4de8-84bf-b443df3d4383
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema

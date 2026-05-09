@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjE2OjUzLjg4NzAxMSIsInVzZXJfaWQiOiI5ODk1MjcxYS0zNTk2LTQwNDctODA0Mi0yMTIzNmE3NTIxOWYifQ.C1uuU73E7j5OemaYEgOoaWJ9CQITPayIXvmd9yBepug'\
+-H 'content-length: 383'\
+-H 'content-type: application/json'\
+-d '{"title":"Billion story human history explain almost.","courseId":"7d26035f-44ac-493a-b283-c8e080eba7b7","maxScore":74,"minScore":8,"orderIndex":100,"description":"Foot vote recent size truth they hit. Light together sit people.\nInclude over activity throw respond listen. Support fast white ten reveal. Increase building administration yourself without.","estimatedTime":"2 weeks"}'
