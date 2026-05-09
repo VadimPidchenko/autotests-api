@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjI1OjEyLjc5ODE5NyIsInVzZXJfaWQiOiJlYWNmOTQ5Zi02NWY0LTRiMjgtOWVmZC02NWVjY2E2OGY1OGIifQ.MJV0-fQ9_dqPUBHCZoPmQ1buMBWl1gRh3MU-827DH-k'\
+-H 'content-length: 409'\
+-H 'content-type: application/json'\
+-d '{"title":"Company thousand better course.","maxScore":75,"minScore":25,"description":"Conference his success effect same clearly enter. Million condition question trade take cold week continue. At learn TV better relationship field building. Seat paper summer husband.","estimatedTime":"10 weeks","previewFileId":"e909e12a-34f9-4d40-ae9e-0ff25493a4e6","createdByUserId":"eacf949f-65f4-4b28-9efd-65ecca68f58b"}'

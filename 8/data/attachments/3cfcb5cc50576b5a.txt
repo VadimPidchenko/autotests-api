@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjI1OjExLjU3NDE5NSIsInVzZXJfaWQiOiI2MDg4M2FkOS05YjQ0LTQwZGUtYTg2YS05YTQ0M2RmNmQ1ZjQifQ.F1iUW-LrAHFevoPPLbET_uxwi5jx8o0551G-ZPW69R4'\
+-H 'content-length: 366'\
+-H 'content-type: application/json'\
+-d '{"title":"Nothing head sense analysis call feeling staff.","courseId":"7565977e-f14c-4bae-83e7-6d931a52b566","maxScore":62,"minScore":29,"orderIndex":40,"description":"Fine chair design day. Data a sea drop. Person out cover born. Between decision rule meet top than.\nOpen fill under raise behind. Cost others type join his serious make.","estimatedTime":"3 weeks"}'

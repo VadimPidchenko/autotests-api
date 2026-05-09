@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjI1OjEwLjY2MzAzMSIsInVzZXJfaWQiOiJmZGNjNjQyNS05Y2EzLTQ4MDAtODU1ZC0yOGNmMDcyMGExMTYifQ.11-pxp4OaBAS9XDVDzUZ09RnvmyR8q0fqJ7-lrX62yQ'\
+-H 'content-length: 414'\
+-H 'content-type: application/json'\
+-d '{"title":"Attention war I citizen account.","maxScore":67,"minScore":8,"description":"Grow ball baby nation add ahead. Herself manage air simply. Blood them treatment fine.\nUse rest office always arrive. Discussion go black skin order. Source professor develop table voice.","estimatedTime":"6 weeks","previewFileId":"3e782d52-d20c-4732-8d39-928f0b74754a","createdByUserId":"fdcc6425-9ca3-4800-855d-28cf0720a116"}'

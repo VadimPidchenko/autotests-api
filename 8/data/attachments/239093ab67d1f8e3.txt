@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjI1OjEwLjM4OTYyOSIsInVzZXJfaWQiOiIyOWY1NjI5OC00YWNlLTRjNjAtYjg3MC0xMWYwMWJkYTU4ZjUifQ.uC5FNTgAsDSls2OvwHmrxkTapAgG4V8inWp8cd0OI1g'\
+-H 'content-length: 416'\
+-H 'content-type: application/json'\
+-d '{"title":"Radio raise line woman remain just method difference.","maxScore":54,"minScore":13,"description":"Responsibility capital current past federal suggest. Trade real box reflect little. Development impact crime.\nBed democratic soldier court. Amount tough another radio.","estimatedTime":"4 weeks","previewFileId":"e4c048c7-f8e5-4c02-bb7b-bcb9e7c5a031","createdByUserId":"29f56298-4ace-4c60-b870-11f01bda58f5"}'

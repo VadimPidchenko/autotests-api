@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjI1OjExLjg0ODgzMCIsInVzZXJfaWQiOiI2MDZmYzc0ZC00NjkzLTQ2MmYtYjM5Yi1lZGU5MWRiZTU1M2IifQ.hUVsT9_uOk2j5pqWpoAiTI8P_qp6rFKuFrVXAwApAzM'\
+-H 'content-length: 373'\
+-H 'content-type: application/json'\
+-d '{"title":"Management book party read.","maxScore":88,"minScore":5,"description":"Street site us trial second treatment fish. Drive fund idea interview. Benefit throughout meet any medical material single debate. Down door wife three.","estimatedTime":"5 weeks","previewFileId":"051766f1-ad10-4665-9889-b2c806fe076f","createdByUserId":"606fc74d-4693-462f-b39b-ede91dbe553b"}'

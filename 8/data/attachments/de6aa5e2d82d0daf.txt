@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjI1OjA5LjQ2NDY2MyIsInVzZXJfaWQiOiI0OWZiMDk2YS01YTRiLTQ0MTgtYWQwNi1kNzdlMzdhMGIwZTkifQ.TP9N_QkORvk2B5fF4Mm5MEWwH8XHCAcSX8fofns1Feo'\
+-H 'content-length: 383'\
+-H 'content-type: application/json'\
+-d '{"title":"Human most across chance.","maxScore":51,"minScore":8,"description":"Policy local gun food American attention suddenly. Son woman tough western. Piece however street learn.\nCreate miss growth mean parent. Suffer cold time fine push.","estimatedTime":"3 weeks","previewFileId":"e801fa0e-680b-4402-bd22-38586aa7224b","createdByUserId":"49fb096a-5a4b-4418-ad06-d77e37a0b0e9"}'

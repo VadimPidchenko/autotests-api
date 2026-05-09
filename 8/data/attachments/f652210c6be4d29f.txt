@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjI1OjExLjU3NDE5NSIsInVzZXJfaWQiOiI2MDg4M2FkOS05YjQ0LTQwZGUtYTg2YS05YTQ0M2RmNmQ1ZjQifQ.F1iUW-LrAHFevoPPLbET_uxwi5jx8o0551G-ZPW69R4'\
+-H 'content-length: 404'\
+-H 'content-type: application/json'\
+-d '{"title":"Somebody perform set industry single.","maxScore":52,"minScore":29,"description":"Else American lose occur ever move I. Human hear fish along onto hair.\nManager dog to production avoid place drug. Ball middle physical something miss mean training above.","estimatedTime":"1 weeks","previewFileId":"10c19c6b-ea72-4177-9f23-5686ef9fe01b","createdByUserId":"60883ad9-9b44-40de-a86a-9a443df6d5f4"}'

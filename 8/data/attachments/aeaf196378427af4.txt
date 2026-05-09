@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/c1357ed7-4bbe-4c3e-b148-7357ab1c10f6
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/c1357ed7-4bbe-4c3e-b148-7357ab1c10f6
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:76 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:52 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'id' equals to c1357ed7-4bbe-4c3e-b148-7357ab1c10f6
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'title' equals to Nothing head sense analysis call feeling staff.
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'course_id' equals to 7565977e-f14c-4bae-83e7-6d931a52b566
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'max_score' equals to 62
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'min_score' equals to 29
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'order_index' equals to 40
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'description' equals to Fine chair design day. Data a sea drop. Person out cover born. Between decision rule meet top than.
+Open fill under raise behind. Cost others type join his serious make.
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'estimated_time' equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema

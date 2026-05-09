@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjI1OjA4LjA0NDg3NSIsInVzZXJfaWQiOiI5MDcyZDhmYS0xZjUzLTRhZjgtYTNlNS0zODAxYjYzM2NlY2UifQ.BaOsZQlA-sYcKNR3kUwg3OJcrli9I5VFQj22avr99DQ'\
+-H 'content-length: 335'\
+-H 'content-type: application/json'\
+-d '{"title":"Brother can follow house defense.","maxScore":89,"minScore":11,"description":"Meeting onto after. Matter sure rule both rest grow return. Defense still member test condition color soon.","estimatedTime":"7 weeks","previewFileId":"f23e3109-1f33-4280-86d3-a09352bfe9ee","createdByUserId":"9072d8fa-1f53-4af8-a3e5-3801b633cece"}'

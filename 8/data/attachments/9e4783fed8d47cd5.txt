@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjI1OjA5LjE5MDY5MSIsInVzZXJfaWQiOiJjZTY0NmFlYS0wMWY5LTRlYTAtODliZi02N2Q1Y2UwYjc3YjYifQ.0xj6ROR4MGg8KAIhX-2taIygf-oAHCzik3WOE5X9Rts'\
+-H 'content-length: 370'\
+-H 'content-type: application/json'\
+-d '{"title":"Voice in course none exist real.","maxScore":56,"minScore":6,"description":"Side data paper anything enough operation. Consumer truth south yes effort practice accept.\nTop help real field soldier. Station summer first.","estimatedTime":"10 weeks","previewFileId":"cb4219a1-6c85-4293-9fb3-2aa8fd0bff16","createdByUserId":"ce646aea-01f9-4ea0-89bf-67d5ce0b77b6"}'

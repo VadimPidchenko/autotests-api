@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDIyOjI1OjEyLjc5ODE5NyIsInVzZXJfaWQiOiJlYWNmOTQ5Zi02NWY0LTRiMjgtOWVmZC02NWVjY2E2OGY1OGIifQ.MJV0-fQ9_dqPUBHCZoPmQ1buMBWl1gRh3MU-827DH-k'\
+-H 'content-length: 293'\
+-H 'content-type: application/json'\
+-d '{"title":"Forget somebody develop by.","courseId":"f487e0ef-b3ff-45b8-8632-9317d0dba0c9","maxScore":64,"minScore":28,"orderIndex":86,"description":"Trip together activity exactly trial whatever. Company people offer this area whatever. Record conference difficult.","estimatedTime":"10 weeks"}'
