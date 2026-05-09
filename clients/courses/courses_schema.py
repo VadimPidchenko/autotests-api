@@ -25,7 +25,7 @@ class GetCoursesQuerySchema(BaseModel):
     Определяет структуру query-параметров для получения всех курсов
     пользователя по userId
     """
-    model_config = ConfigDict(validate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     user_id: str = Field(alias="userId")
 

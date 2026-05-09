@@ -38,7 +38,7 @@ class GetExercisesQuerySchema(BaseModel):
     Определяет структуру query-параметров для получения списка заданий
     для определенного курса (courseId)
     """
-    model_config = ConfigDict(validate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     course_id: str = Field(alias="courseId")
 
