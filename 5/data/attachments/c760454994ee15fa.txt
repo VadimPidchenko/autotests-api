@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDE5OjQ4OjMxLjk5OTkzOSIsInVzZXJfaWQiOiJjMGEyMmZhYy01MDAwLTRhMDYtOTY4Yi1hNjJkZWQ3OGZkZmEifQ.-dp-M5E2wuSegYj8-ohuL6Zfl3Pm0cHylUPB0vuB43U'\
+-H 'content-length: 434'\
+-H 'content-type: application/json'\
+-d '{"title":"Enjoy bit far attention evening none her.","maxScore":100,"minScore":28,"description":"Those better enough third per military where. Manager ten feel new bit nor. Kitchen wish despite purpose most thought amount move. Out build individual character.\nStatement easy take group him up.","estimatedTime":"5 weeks","previewFileId":"ee81f053-2083-42c8-bc4e-1619bd87eca8","createdByUserId":"2455a490-e102-4139-b76a-c84c0fd5107d"}'

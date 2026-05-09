@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDE5OjQ4OjMzLjIyNTI2NyIsInVzZXJfaWQiOiIwOWJlOGQzNi1mNTdmLTQyYzgtOWFiMi01MmM3NmZkOWE3YjAifQ.X35_u6NbrX8GyeqBmCgoB13fqNg7I9cqTeHDDUQLCoA'\
+-H 'content-length: 352'\
+-H 'content-type: application/json'\
+-d '{"title":"Town people type most do teach man.","maxScore":85,"minScore":10,"description":"Follow around information beat rock thousand member she. Nature need race space company road. Water attention big imagine.","estimatedTime":"7 weeks","previewFileId":"e29c3376-8a8a-481e-9263-26bfb6b0c4a6","createdByUserId":"7cafb8c1-0172-44a4-bcb0-e1aebca78b60"}'

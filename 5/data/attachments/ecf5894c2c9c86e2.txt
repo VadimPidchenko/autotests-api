@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDE5OjQ4OjMwLjg1NDI3MyIsInVzZXJfaWQiOiIxODhlYWY4YS0yNjMxLTRlOGYtYmU2ZC1kNTJhNmFmMGEyNDMifQ.288hY4n97TazdWS0Xoju1Cd7M6F0pD0lp3zjEq72SaU'\
+-H 'content-length: 385'\
+-H 'content-type: application/json'\
+-d '{"title":"Majority policy least push.","maxScore":81,"minScore":11,"description":"Including we central.\nCommunity cold name first. Room too run. Feeling view green notice.\nI part have attack teach face law. Others film toward also choice cost.","estimatedTime":"3 weeks","previewFileId":"dd62889b-3b45-48ae-804f-9494affef5a1","createdByUserId":"2a858b74-0ad7-4001-a619-99d9549802d5"}'

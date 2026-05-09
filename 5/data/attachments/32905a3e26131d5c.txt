@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDE5OjQ4OjM1LjYwMTYwMiIsInVzZXJfaWQiOiIzMGMzM2UyNy0zYzhjLTRlNWItYTUyYy0zMDhjZTdjNjk5MjYifQ.Kry7ne5JyR8dZc8Dv-W9cQWctlcQOcMnqq7Tlvn6aWs'\
+-H 'content-length: 394'\
+-H 'content-type: application/json'\
+-d '{"title":"Cover middle customer their change school.","maxScore":100,"minScore":22,"description":"Model build doctor quickly. Always price arm television.\nThird how few. Agree responsibility range hear. Current prepare everyone involve carry enough law.","estimatedTime":"6 weeks","previewFileId":"19c7a0ce-510c-427a-a51b-ab57f985a5c0","createdByUserId":"9d2ab51d-a446-4fa8-b590-3f7d5ddc66e9"}'

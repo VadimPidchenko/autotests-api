@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDE5OjQ4OjM0LjQxOTIzNCIsInVzZXJfaWQiOiI3NGJjMGI2ZC00YzM0LTRlYzAtOGY3ZS0yZTkzZDk5NDYxYmMifQ.r6ZkG7iqfkW_hhmBX6xe1U8jCh6qQcqxJ_8RiQ34jPc'\
+-H 'content-length: 355'\
+-H 'content-type: application/json'\
+-d '{"title":"Know none image.","maxScore":67,"minScore":2,"description":"Present imagine adult. Always actually art your move read. Pressure throw receive could quite.\nOff those else magazine my. Record major no team.","estimatedTime":"4 weeks","previewFileId":"cd0ea29a-420b-4cdf-baf0-07f6b2899e1b","createdByUserId":"481ed023-5887-491d-a5fd-3a4561fb0e11"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDE5OjQ4OjMzLjUwMDI1OSIsInVzZXJfaWQiOiI3ZTQ2NzE4Ny1mMmQ5LTQ1MjEtODdlOS00NGVmOTIwYzZiNDMifQ.w6lZ-74ABcRTyIu6KlsHY4Mqiua9pcmyj5A8lG7K7mc'\
+-H 'content-length: 417'\
+-H 'content-type: application/json'\
+-d '{"title":"Learn beautiful by trial.","maxScore":81,"minScore":5,"description":"Idea admit little field for certain early. Short fly already national surface certain. Have first ago professor pick green.\nUnit carry final everything art check bit. Pretty head build walk health.","estimatedTime":"4 weeks","previewFileId":"fc4a0ca5-5a7d-4307-9173-718919b8f7ab","createdByUserId":"62be678e-ac3c-48d2-a6be-bcf8aae113c8"}'

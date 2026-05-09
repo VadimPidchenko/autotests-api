@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDE5OjQ4OjMyLjI3NjUwMiIsInVzZXJfaWQiOiIxNGVjZjdhOS02NjkzLTRjMmEtOTQ0MC00ZTgxYjA2ZmMwZjEifQ.7wWoi5i_vzKEgnLeJSYoB5XJPXzB_2GMPztN1ewsMvo'\
+-H 'content-length: 369'\
+-H 'content-type: application/json'\
+-d '{"title":"Another natural bed sport.","maxScore":63,"minScore":30,"description":"Whether station environment our year report suggest. Majority race walk. Move present act section gas gun. Democrat wide although close while vote.","estimatedTime":"10 weeks","previewFileId":"7b4fa45c-37de-4d7d-9e53-209f81b994b8","createdByUserId":"fb87d82b-e7a1-45c5-866c-96269d2e2399"}'

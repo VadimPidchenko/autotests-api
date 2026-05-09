@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDE5OjQ4OjM0LjY5NDAwNCIsInVzZXJfaWQiOiI2MzU1NmEyZi0xYzU5LTQ2MjUtYTkzNy1iZGNhMzNkYjk3YTIifQ.DHjk0UUCX5N4zVdLU_iVUcI87LDfNxmS0kstOWwOFRY'\
+-H 'content-length: 407'\
+-H 'content-type: application/json'\
+-d '{"title":"They Mrs hard others guy.","maxScore":62,"minScore":12,"description":"Class modern myself rock collection.\nContinue case girl read. Fill trip movement activity instead size amount.\nThose cover later benefit single lead either. Region serious find economy.","estimatedTime":"9 weeks","previewFileId":"1d709081-8d84-4db5-b5a9-70f9ec425d46","createdByUserId":"d11caa3b-40b8-4166-9b29-e772450618e4"}'
