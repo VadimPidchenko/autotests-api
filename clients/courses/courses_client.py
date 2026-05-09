@@ -20,7 +20,7 @@ class CoursesClient(APIClient):
     Клиент для работы с /api/v1/courses
     """
 
-    @allure.step("Get cour  ses")
+    @allure.step("Get courses")
     def get_courses_api(self, query: GetCoursesQuerySchema) -> Response:
         """
         Метод для получения всех курсов пользователя.
