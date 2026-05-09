@@ -41,7 +41,7 @@ class CreateCourseRequestSchema(BaseModel):
     """
     Определяет структуру тела запроса на создание курса
     """
-    model_config = ConfigDict(validate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     title: str = Field(default_factory=fake.sentence)
     max_score: int = Field(alias="maxScore", default_factory=fake.max_score)
@@ -49,7 +49,7 @@ class CreateCourseRequestSchema(BaseModel):
     description: str = Field(default_factory=fake.text)
     estimated_time: str = Field(alias="estimatedTime", default_factory=fake.estimated_time)
     preview_file_id: str = Field(alias="previewFileId", default_factory=fake.uuid4)
-    created_by_user_id: str = Field(alias="createdByUserId")
+    created_by_user_id: str = Field(alias="createdByUserId", default_factory=fake.uuid4)
 
 
 class CreateCourseResponseSchema(BaseModel):
