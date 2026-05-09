@@ -45,7 +45,7 @@ class TestExercises:
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.sub_suite(AllureStory.CREATE_ENTITY)
     @allure.tag(AllureTags.CREATE_ENTITY)
-    @allure.title("Create exercise")
+    @allure.title("Createe exercise")
     def test_create_exercise(
         self, exercises_client: ExercisesClient, function_create_course: CoursesFixture
     ):
