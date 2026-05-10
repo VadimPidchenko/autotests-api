@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDE1OjQ2OjM2LjE2MzQ5NSIsInVzZXJfaWQiOiJlMWQ3ZmMyZi0xZWM4LTQ0OTktYWNiYS1jN2U4ZTY1Y2U2N2QifQ.8sJtnDwzfcEE_--x5RAEtN5ih-wBsaXBxlHb77hNQPE'\
+-H 'content-length: 427'\
+-H 'content-type: application/json'\
+-d '{"title":"Floor hit shake especially alone.","maxScore":77,"minScore":23,"description":"Discussion enter technology score investment serve themselves. Great face international glass last that.\nBoard usually kitchen class social job successful effort. Fire former almost western art Mrs.","estimatedTime":"1 weeks","previewFileId":"059efe99-ef7a-4cfa-8db3-a1d15a5ea258","createdByUserId":"e1d7fc2f-1ec8-4499-acba-c7e8e65ce67d"}'

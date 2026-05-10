@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:94 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'title' equals to Like PM win have rather manager former.
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'max_score' equals to 61
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'min_score' equals to 5
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'description' equals to Base term suffer change although way food four. Only feeling clear fine. Present field computer field chair must. Late peace help heavy.
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'estimated_time' equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'file_id' equals to a411ca78-a2fb-4677-957c-4086419c456f
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'user_id' equals to 5b3f29e8-9f2e-45f6-8558-3e2bf5e23443
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema

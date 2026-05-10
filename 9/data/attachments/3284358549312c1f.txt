@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDE1OjQ2OjMzLjk5OTc4MiIsInVzZXJfaWQiOiIwMDMxYTMzMS0zNGYyLTQzNWYtYmRmNC1mOTk4YmQ0MmM0ODQifQ.ehD9ZOmj-J4NkfBD_xk8WE-VmkppA-bmhvrlXfcKHOE'\
+-H 'content-length: 366'\
+-H 'content-type: application/json'\
+-d '{"title":"Expect school statement mind site.","courseId":"a2811d79-d266-445f-bd90-6caceb469a9d","maxScore":69,"minScore":27,"orderIndex":95,"description":"As ago head production particular. Safe indicate water federal owner future treatment which. Seat how debate.\nCommon now our line agreement politics billion. Do herself area suggest.","estimatedTime":"1 weeks"}'

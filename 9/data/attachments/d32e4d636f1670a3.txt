@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDE1OjQ2OjMzLjcyNTk3MiIsInVzZXJfaWQiOiIwYzhmMGQ3ZS0xZWU3LTQ0ZTMtYWY0ZS1mNjQzODg0NTNhNDMifQ.q1S0zFpUZw7nyI_Pg0uYUMXniF7D8sF0OgMLQAbiVa8'\
+-H 'content-length: 416'\
+-H 'content-type: application/json'\
+-d '{"title":"Trade blood herself risk argue pick dark total.","maxScore":54,"minScore":11,"description":"Couple notice story how but. Successful mission model significant whose letter hundred.\nFall color surface onto wall. Store use no win job media look.\nOwner hospital admit.","estimatedTime":"2 weeks","previewFileId":"f6fc4e6f-81bb-492c-aa1b-9215c3e5719a","createdByUserId":"0c8f0d7e-1ee7-44e3-af4e-f64388453a43"}'

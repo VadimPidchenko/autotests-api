@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/6f2e12d0-3bcc-4eea-8271-b425704191ac'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDE1OjQ2OjMyLjIyMzY2MiIsInVzZXJfaWQiOiI5ZTg2ZWQxZC0yMjdmLTQwYzEtOGVkZi1mZTQ0ZWMxNTE4YjIifQ.82v7aU1prBCJg2yE-u3vO0DoMgVH2vbkmWpQhZ-sHM4'\
+-H 'content-length: 232'\
+-H 'content-type: application/json'\
+-d '{"title":"Out arm interest discover world stage walk.","maxScore":97,"minScore":20,"description":"Town food blue.\nDo late today gun. War sound much somebody affect weight. Color collection perhaps exist.","estimatedTime":"1 weeks"}'

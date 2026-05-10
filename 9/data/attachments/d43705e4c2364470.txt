@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDE1OjQ2OjM1LjE5NDIwNiIsInVzZXJfaWQiOiI0MDM5ODZiYi0yMDNiLTQzNzktYmMzOC1hYTJiN2UzNjM0NWIifQ.NEWlWyzky28RA1fh3Ba8rVLFBumOx-BU1Rw2L9BPGSA'\
+-H 'content-length: 361'\
+-H 'content-type: application/json'\
+-d '{"title":"Allow consider some commercial office.","maxScore":77,"minScore":4,"description":"Admit produce image fear. Detail like she push improve industry executive direction. Kid add wonder work mouth during production.","estimatedTime":"7 weeks","previewFileId":"65757ce3-10e2-4980-b347-f1b00875f6be","createdByUserId":"403986bb-203b-4379-bc38-aa2b7e36345b"}'

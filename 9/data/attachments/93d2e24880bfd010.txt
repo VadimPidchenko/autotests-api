@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDE1OjQ2OjMzLjk5OTc4MiIsInVzZXJfaWQiOiIwMDMxYTMzMS0zNGYyLTQzNWYtYmRmNC1mOTk4YmQ0MmM0ODQifQ.ehD9ZOmj-J4NkfBD_xk8WE-VmkppA-bmhvrlXfcKHOE'\
+-H 'content-length: 405'\
+-H 'content-type: application/json'\
+-d '{"title":"Memory somebody heart rich arrive.","maxScore":66,"minScore":19,"description":"Yet night difference key. Anything everyone leg anything. Activity or better industry loss available represent.\nPretty claim either fish wait program. Guess ago news age fear.","estimatedTime":"7 weeks","previewFileId":"da4dc2f9-22ad-4d27-980d-bd609b785592","createdByUserId":"0031a331-34f2-435f-bdf4-f998bd42c484"}'
