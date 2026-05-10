@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/3bb54c02-705d-4c69-b9e4-ff10ffc5f7bc
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses/3bb54c02-705d-4c69-b9e4-ff10ffc5f7bc
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:29 Check update course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'title' equals to New official her wind.
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'max_score' equals to 89
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'min_score' equals to 1
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'description' equals to Piece under push research that. Actually rule among computer expert control air.
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'estimated_time' equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema

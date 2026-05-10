@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDE2OjEwOjA0LjYwNTUwNSIsInVzZXJfaWQiOiIxNGYwNDJmZC00Mzc0LTQxYTgtODFkOS01MTQ0ZGJjZGNjMWUifQ.u-Q3a19fe0zF_xZT1PmNblxTw6nufh6lAn76IpkqH38'\
+-H 'content-length: 368'\
+-H 'content-type: application/json'\
+-d '{"title":"Growth once value kind recognize process little.","maxScore":71,"minScore":29,"description":"Both particularly performance situation offer. Among adult lose physical. Personal write parent second prevent scientist per.","estimatedTime":"6 weeks","previewFileId":"f4840fd5-7b74-4e8e-8af1-60544e961f81","createdByUserId":"14f042fd-4374-41a8-81d9-5144dbcdcc1e"}'

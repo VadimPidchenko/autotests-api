@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/3bb54c02-705d-4c69-b9e4-ff10ffc5f7bc'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDE2OjEwOjAxLjkxNTAwNiIsInVzZXJfaWQiOiJjZjhiMTBlYS0yZDJhLTQ2NjMtOWMxOC04MDIzOTg4NDBkMTMifQ.qhAggHGVZu9ppYHWhbq6YGnIEqueHCbUAiyE7zYRu2Q'\
+-H 'content-length: 184'\
+-H 'content-type: application/json'\
+-d '{"title":"New official her wind.","maxScore":89,"minScore":1,"description":"Piece under push research that. Actually rule among computer expert control air.","estimatedTime":"2 weeks"}'

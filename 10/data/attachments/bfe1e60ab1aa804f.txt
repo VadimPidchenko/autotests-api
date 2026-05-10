@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDE2OjEwOjAyLjE5MDE0NiIsInVzZXJfaWQiOiJlYjExYmViMi1lMmQ3LTQwNDEtYWZhNS02OTEyODQzNDNkNWYifQ.uS9SpAWRPQCblamN71kstxq11Hq-oPQKBAXa5tP4aoA'\
+-H 'content-length: 413'\
+-H 'content-type: application/json'\
+-d '{"title":"Recognize central just culture.","maxScore":67,"minScore":19,"description":"Computer become somebody establish cultural girl either. Most successful there save black strong.\nElection method national site letter lay enter. Pm in nor customer up seat growth catch.","estimatedTime":"6 weeks","previewFileId":"3911b780-720d-46b7-b86e-4b331d334b5e","createdByUserId":"eb11beb2-e2d7-4041-afa5-691284343d5f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDE2OjEwOjA0LjMzMTg5NCIsInVzZXJfaWQiOiIzMDQ4MWM4NS0yNmU3LTRmZTUtYThkMS1jNzliYzBiMDBkYzYifQ.y8tG4yYKLTAxEcgT92qOxyrtWNxVBNK128TCSus9gu4'\
+-H 'content-length: 413'\
+-H 'content-type: application/json'\
+-d '{"title":"Republican change likely third party generation.","maxScore":91,"minScore":17,"description":"Effort people enter. Think result sister traditional. Traditional enter exactly card leader fish.\nDog policy night health describe. Position child computer performance.","estimatedTime":"10 weeks","previewFileId":"e154f89c-026f-4833-8374-bbbe55be2d12","createdByUserId":"30481c85-26e7-4fe5-a8d1-c79bc0b00dc6"}'

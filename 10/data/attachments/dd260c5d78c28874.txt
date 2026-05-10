@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDE2OjEwOjAxLjkxNTAwNiIsInVzZXJfaWQiOiJjZjhiMTBlYS0yZDJhLTQ2NjMtOWMxOC04MDIzOTg4NDBkMTMifQ.qhAggHGVZu9ppYHWhbq6YGnIEqueHCbUAiyE7zYRu2Q'\
+-H 'content-length: 369'\
+-H 'content-type: application/json'\
+-d '{"title":"Nearly smile there almost over blood.","maxScore":50,"minScore":1,"description":"Article more begin scene. Fall until for spend.\nSoon girl among page challenge ability I. Surface trouble middle. Various arm never stop.","estimatedTime":"6 weeks","previewFileId":"ac0003e9-6bee-45e2-a39e-1c964eeeca6d","createdByUserId":"cf8b10ea-2d2a-4663-9c18-802398840d13"}'

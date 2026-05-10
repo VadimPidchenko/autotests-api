@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDE2OjEwOjA1LjU2NDAwOCIsInVzZXJfaWQiOiJmMDkzYTg5Ny02Y2UxLTQxNmItOTQyMC0zOGZiZGJhMDUyNWEifQ.x2snXduEEMimfNK96w-5mNfLvZvlQ5y-Qdy6dZLynD0'\
+-H 'content-length: 401'\
+-H 'content-type: application/json'\
+-d '{"title":"Person husband Democrat use career environment our president.","maxScore":88,"minScore":26,"description":"Everything democratic agree hope allow. Behavior yourself according.\nPrevent full leave others they. Bank letter church remember fund professor.","estimatedTime":"8 weeks","previewFileId":"de88d836-a9e3-43f5-872e-989d8ac4e975","createdByUserId":"f093a897-6ce1-416b-9420-38fbdba0525a"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:94 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'title' equals to Recognize central just culture.
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'max_score' equals to 67
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'min_score' equals to 19
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'description' equals to Computer become somebody establish cultural girl either. Most successful there save black strong.
+Election method national site letter lay enter. Pm in nor customer up seat growth catch.
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'estimated_time' equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'file_id' equals to 3911b780-720d-46b7-b86e-4b331d334b5e
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'user_id' equals to eb11beb2-e2d7-4041-afa5-691284343d5f
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema

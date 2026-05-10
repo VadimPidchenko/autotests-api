@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEwVDE2OjEwOjAzLjQwNjE3OCIsInVzZXJfaWQiOiIzMDY3ZTI1Zi1mYTQ5LTRlMjEtOThkNC1iY2I1YjhiNTM2YWUifQ.sUYJ59kw_UcVrTwbTNjtrfY-aHn1R91vlFidrlRf0N0'\
+-H 'content-length: 357'\
+-H 'content-type: application/json'\
+-d '{"title":"Sea material have shoulder hand region.","maxScore":76,"minScore":3,"description":"Entire hot serious. Particular health opportunity story. Near value fill mouth answer yeah pick. Light task fast yard first.","estimatedTime":"6 weeks","previewFileId":"c487fb5d-98b9-4902-86dd-c6ac29ff5795","createdByUserId":"3067e25f-fa49-4e21-98d4-bcb5b8b536ae"}'
