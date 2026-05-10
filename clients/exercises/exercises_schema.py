@@ -7,7 +7,7 @@ class ExerciseSchema(BaseModel):
     """
     Определяет структуру задания.
     """
-    model_config = ConfigDict(validate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True, validate_by_name=True)
 
     id: str
     title: str
@@ -38,7 +38,7 @@ class GetExercisesQuerySchema(BaseModel):
     Определяет структуру query-параметров для получения списка заданий
     для определенного курса (courseId)
     """
-    model_config = ConfigDict(populate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True, validate_by_name=True)
 
     course_id: str = Field(alias="courseId")
 
@@ -46,7 +46,7 @@ class CreateExercisesRequestSchema(BaseModel):
     """
     Определяет структуру запроса на создание задания
     """
-    model_config = ConfigDict(validate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True,validate_by_name=True)
 
     title: str = Field(default_factory=fake.sentence)
     course_id: str = Field(alias="courseId", default_factory=fake.uuid4)
@@ -68,7 +68,7 @@ class UpdateExercisesRequestSchema(BaseModel):
     """
     Определяет структуру запроса на изменение задания
     """
-    model_config = ConfigDict(validate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True, validate_by_name=True)
 
     title: str | None =  Field(default_factory=fake.sentence)
     max_score: int | None = Field(alias="maxScore", default_factory=fake.max_score)

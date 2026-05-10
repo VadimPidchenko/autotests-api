@@ -133,8 +133,15 @@ class TestExercises:
         function_create_exercise: ExerciseFixture,
         function_create_course: CoursesFixture
     ):
+        print(f"\nDEBUG: Course ID = {function_create_course.response.course.id}")
+        print(f"DEBUG: Exercise course_id = {function_create_exercise.request.course_id}")
+        print(f"DEBUG: GET URL = /exercises?courseId={function_create_course.response.course.id}")
+
         request = GetExercisesQuerySchema(course_id=function_create_course.response.course.id)
         response = exercises_client.get_exercises_api(request)
+
+        print(f"DEBUG: Response = {response.text[:200]}")
+
         response_data = GetExercisesResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.OK)
