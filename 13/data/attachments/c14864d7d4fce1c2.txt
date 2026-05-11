@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDEzOjQyOjI1LjE3NTU3MSIsInVzZXJfaWQiOiJlZTFlNzlkNi1hNGFiLTQ3YzktOGY1NC00YzQyMTcwNjQxMGEifQ.8NDP-kpsAYn99lrnLL6reXnD57iKASdk907xbBpAQ6s'\
+-H 'content-length: 418'\
+-H 'content-type: application/json'\
+-d '{"title":"Tell themselves bring this catch peace.","maxScore":61,"minScore":16,"description":"Ever discussion final through compare some usually away. Enter program range meeting road. Bag behind itself subject.\nKind than though down. Discuss trouble focus just reflect second.","estimatedTime":"9 weeks","previewFileId":"cfcad28c-254b-4377-9f90-04c9ecb6b442","createdByUserId":"ee1e79d6-a4ab-47c9-8f54-4c421706410a"}'

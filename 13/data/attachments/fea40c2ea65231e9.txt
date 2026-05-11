@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/6fb4e5f4-fdf7-4893-9d4c-21b0d301951d
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses/6fb4e5f4-fdf7-4893-9d4c-21b0d301951d
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:29 Check update course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'title' equals to Have crime center feeling after.
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'max_score' equals to 51
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'min_score' equals to 4
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'description' equals to Design foreign after international everybody. Peace score week tell those eye main value. Ready down born run.
+INFO     BASE_ASSERTIONS:base.py:35 Check that 'estimated_time' equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema

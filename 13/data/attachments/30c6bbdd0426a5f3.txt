@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDEzOjQyOjI2LjMzOTE3OCIsInVzZXJfaWQiOiJiYzQzOTBlZC00NWRhLTQ2MGUtYTkzMi1hZmQ1NDg1MjUxNWYifQ.K1IICueP3WVBwn8KalZREnxSFjha29mbeox_BnE_IDI'\
+-H 'content-length: 348'\
+-H 'content-type: application/json'\
+-d '{"title":"History account act dog business success try.","maxScore":71,"minScore":26,"description":"Say figure administration on by project. Discussion population top effort national. Which offer modern whom.","estimatedTime":"7 weeks","previewFileId":"79d1abf5-4f74-4ed8-a8c0-c8ef5be2c5cf","createdByUserId":"bc4390ed-45da-460e-a932-afd54852515f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDEzOjQyOjI3LjUwMDE1MiIsInVzZXJfaWQiOiJhMDk0NmY3ZC1kYmE3LTQyZWEtODI3Mi05NmZhNzc4M2I2YzIifQ.-qDhA5o95WVP8tI_dy9xawKdNPdcm21LQuqnFqGR-qg'\
+-H 'content-length: 396'\
+-H 'content-type: application/json'\
+-d '{"title":"Born eight teach decide too bar hospital.","maxScore":62,"minScore":30,"description":"Around image into past computer. Admit hard gun above put wide throughout. Present small tell accept. President treat remember four democratic explain everyone.","estimatedTime":"6 weeks","previewFileId":"b07379ef-88b9-4d72-adbc-61b7f59a0966","createdByUserId":"a0946f7d-dba7-42ea-8272-96fa7783b6c2"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDEzOjQyOjI2Ljg5MzM3NyIsInVzZXJfaWQiOiJmNzYzYWRiYi1jNzU3LTQzNjYtYjQyOC05Njg1Y2Q3NTI4Y2YifQ.MjWRXE15MA5dlCJCCliRbQeBkIOlMsR0ngqSq-rRyGU'\
+-H 'content-length: 312'\
+-H 'content-type: application/json'\
+-d '{"title":"Bit instead particular change ago claim.","courseId":"6586cef7-6f74-491c-b5e4-18e5b7e78f47","maxScore":82,"minScore":17,"orderIndex":4,"description":"Democrat pretty outside that. Team deep position list how firm organization although. Newspaper eat game find wrong prepare.","estimatedTime":"5 weeks"}'

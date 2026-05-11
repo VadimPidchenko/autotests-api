@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDEzOjQyOjI2LjMzOTE3OCIsInVzZXJfaWQiOiJiYzQzOTBlZC00NWRhLTQ2MGUtYTkzMi1hZmQ1NDg1MjUxNWYifQ.K1IICueP3WVBwn8KalZREnxSFjha29mbeox_BnE_IDI'\
+-H 'content-length: 347'\
+-H 'content-type: application/json'\
+-d '{"title":"Approach decade case one Mr enough.","courseId":"a3f53c5d-7d10-43b7-a4cc-61676992ad78","maxScore":96,"minScore":14,"orderIndex":70,"description":"By happy window case she pretty. Small democratic push college role let.\nPlan behind attention field pick. Detail follow walk establish model rock western answer.","estimatedTime":"3 weeks"}'

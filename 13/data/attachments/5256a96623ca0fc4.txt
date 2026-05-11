@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/6fb4e5f4-fdf7-4893-9d4c-21b0d301951d'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDEzOjQyOjI1LjE3NTU3MSIsInVzZXJfaWQiOiJlZTFlNzlkNi1hNGFiLTQ3YzktOGY1NC00YzQyMTcwNjQxMGEifQ.8NDP-kpsAYn99lrnLL6reXnD57iKASdk907xbBpAQ6s'\
+-H 'content-length: 224'\
+-H 'content-type: application/json'\
+-d '{"title":"Have crime center feeling after.","maxScore":51,"minScore":4,"description":"Design foreign after international everybody. Peace score week tell those eye main value. Ready down born run.","estimatedTime":"3 weeks"}'

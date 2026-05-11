@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDEzOjQyOjI4LjA1OTI4NiIsInVzZXJfaWQiOiIxNGQxN2Y4Yy0wMTBkLTQ3NjItYmQ2NC0wNzc3NzM3N2YxZmYifQ.NmyXntQq6YUJ3D3ZwQPWvjKR4u5NYbSpeujBhuDTCSQ'\
+-H 'content-length: 361'\
+-H 'content-type: application/json'\
+-d '{"title":"During food relate various physical.","maxScore":69,"minScore":17,"description":"Sign message start always order act. History write could and challenge condition. Medical blood step when add foot several detail.","estimatedTime":"4 weeks","previewFileId":"2df18e65-0695-42de-95f8-fea397eb9218","createdByUserId":"14d17f8c-010d-4762-bd64-07777377f1ff"}'

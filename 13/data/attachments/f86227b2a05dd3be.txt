@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDEzOjQyOjI1Ljc4Njg5MCIsInVzZXJfaWQiOiIwYjI4MTIxZC01NDQ2LTQxY2QtYjI4Zi1kN2EyOThhOWJlNmQifQ.zoBctq-L0-BRACX-0Lc1GA6NNCK2_eYBKx3hItc-T4Q'\
+-H 'content-length: 416'\
+-H 'content-type: application/json'\
+-d '{"title":"Detail buy camera might blood.","maxScore":65,"minScore":5,"description":"Hair early remember indicate chance produce. Oil ahead expect fall win want phone.\nSkill me network suffer. Finish seek and yes quickly candidate fine probably. Late to film people movie say.","estimatedTime":"1 weeks","previewFileId":"6e29f2db-490c-4bab-b375-a4130ffa0331","createdByUserId":"0b28121d-5446-41cd-b28f-d7a298a9be6d"}'

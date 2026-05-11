@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDEzOjQyOjI3LjUwMDE1MiIsInVzZXJfaWQiOiJhMDk0NmY3ZC1kYmE3LTQyZWEtODI3Mi05NmZhNzc4M2I2YzIifQ.-qDhA5o95WVP8tI_dy9xawKdNPdcm21LQuqnFqGR-qg'\
+-H 'content-length: 349'\
+-H 'content-type: application/json'\
+-d '{"title":"Everyone show wind hotel effort prove.","courseId":"a026c3a8-37f7-4710-8d10-9612c59e57fc","maxScore":62,"minScore":22,"orderIndex":25,"description":"Key receive base listen even talk war. Company group tend simply consider him.\nPick region bed five decade stuff real arrive. Accept western nearly hear mission.","estimatedTime":"9 weeks"}'

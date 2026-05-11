@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDEzOjQyOjI4LjY5MzExMSIsInVzZXJfaWQiOiJiNzA1ZmQ1Ny0xNTc5LTQ5MzQtODA2OS05NDk5OGM0NTRhNDAifQ.VJlBwiSPsR1uTj4--OTVG9PFaT9rY9HfO442antoT4U'\
+-H 'content-length: 307'\
+-H 'content-type: application/json'\
+-d '{"title":"Themselves foot effort itself.","maxScore":76,"minScore":12,"description":"Across ask agent look admit peace road. I surface dream source enter final action.","estimatedTime":"8 weeks","previewFileId":"ea792c6a-d60f-4c3f-b42b-6500b8194153","createdByUserId":"b705fd57-1579-4934-8069-94998c454a40"}'
