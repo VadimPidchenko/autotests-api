@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE0OjAyOjE5LjcwNzIyNCIsInVzZXJfaWQiOiI5YTQ0ZjBlMS1iNjlmLTRhY2YtOTY0Ni00YTZhYmFkNjljOWQifQ.tFMEqJmtZE94EU5DwpnT7WzjSQki_okebEkZ6LW0Eso'\
+-H 'content-length: 395'\
+-H 'content-type: application/json'\
+-d '{"title":"Involve exist science recent teach alone travel.","courseId":"e228bf38-4d18-42d7-bc33-356121230c01","maxScore":67,"minScore":26,"orderIndex":98,"description":"Then the from gas improve walk ago. Open get different. Available learn study cup. Other drug edge education.\nLittle usually responsibility. Them the power especially run team. Bar all player hard.","estimatedTime":"5 weeks"}'

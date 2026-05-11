@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE0OjAyOjIwLjM1NDIyNiIsInVzZXJfaWQiOiI4MzU5YTE1Yi03YjJkLTQ5ZTQtOGJkZi0xNmQ0ZmU3ZTM4N2YifQ.BSomfyXxxTBOrEzyD3jV_w10SyJj_EWbDPov9-cePZk'\
+-H 'content-length: 411'\
+-H 'content-type: application/json'\
+-d '{"title":"Response expect rather responsibility message campaign.","maxScore":51,"minScore":25,"description":"Force unit number quite nation. Serve like fear real. Security both property method.\nAdd method interesting provide top. Everyone without road send ever street.","estimatedTime":"4 weeks","previewFileId":"008b43ca-d8f4-48af-be09-511f19946509","createdByUserId":"8359a15b-7b2d-49e4-8bdf-16d4fe7e387f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE0OjAyOjE5LjA1Mjg3MyIsInVzZXJfaWQiOiI2ZGE4Yjc3ZC1kZDgyLTQxNTUtYWYxZi1mNTM3NjcwMzI4N2QifQ.djiZSypWqyi4G78yPTaLgY9b_KrWrlk9jxSyho7VV6o'\
+-H 'content-length: 391'\
+-H 'content-type: application/json'\
+-d '{"title":"Simple statement with.","maxScore":69,"minScore":2,"description":"Sit director candidate forget purpose will. Organization remember which western your choose.\nNation focus civil after change agent. Economic thing material game next student.","estimatedTime":"9 weeks","previewFileId":"3783b2db-cf80-49ac-b972-efaadf07dfb9","createdByUserId":"6da8b77d-dd82-4155-af1f-f5376703287d"}'

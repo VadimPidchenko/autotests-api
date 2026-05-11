@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE0OjAyOjIxLjcwNjcwNiIsInVzZXJfaWQiOiI1MTIxNmNlOC1iYWQ4LTQxYjEtOTA0MC0zZjBiMjlmMDAxMTcifQ.s4MVWYc4yxTaj_4uRr910_k3ITC7NhcDIdMxf2BW_Qk'\
+-H 'content-length: 400'\
+-H 'content-type: application/json'\
+-d '{"title":"Fine vote list open eye.","maxScore":54,"minScore":6,"description":"Time necessary special subject director cost drug. Course peace name require interest. Season close various assume.\nSmile adult its smile per we gun. Husband news buy safe maintain.","estimatedTime":"8 weeks","previewFileId":"c71716e1-ebe6-4672-8c53-2b183b598186","createdByUserId":"51216ce8-bad8-41b1-9040-3f0b29f00117"}'

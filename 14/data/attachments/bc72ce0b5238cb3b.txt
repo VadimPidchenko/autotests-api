@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE0OjAyOjIyLjQ0NTQyNyIsInVzZXJfaWQiOiI4MDIyODBkYS1kNTU1LTRkZDAtOTZiOS1iYmJmYzNkMWRiZGYifQ.b-d3REK18zctIKLyiC5hx0AVvaXpO47tf8qbSFKVTBU'\
+-H 'content-length: 441'\
+-H 'content-type: application/json'\
+-d '{"title":"Place mother daughter hospital sing listen building.","maxScore":51,"minScore":6,"description":"This item recognize.\nAnyone anyone science manager image seem move sure. Never detail report notice.\nPay his single. Budget dog wind week range test race. Beautiful not arm three against third.","estimatedTime":"9 weeks","previewFileId":"edc7ad16-6d19-4835-9d21-be25392b87e0","createdByUserId":"802280da-d555-4dd0-96b9-bbbfc3d1dbdf"}'

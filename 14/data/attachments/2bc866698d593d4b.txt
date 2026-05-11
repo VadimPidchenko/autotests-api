@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE0OjAyOjE3LjY5NDkwNiIsInVzZXJfaWQiOiI3YmRkNDczZi0wMmZjLTQwMmEtOGIxNC05MGVjNDM1OWEwMWYifQ.GcUNjixb94IwROtvE0JMFGpJtQdsEnKG4n9PN0tY49k'\
+-H 'content-length: 349'\
+-H 'content-type: application/json'\
+-d '{"title":"Bed cover commercial put cut avoid mother.","maxScore":67,"minScore":21,"description":"Bill cover one product none still thought. Impact doctor arm trouble. Believe four pressure miss sign baby long.","estimatedTime":"8 weeks","previewFileId":"d3a89d3b-9e27-42da-b931-8cb3a49d7358","createdByUserId":"7bdd473f-02fc-402a-8b14-90ec4359a01f"}'

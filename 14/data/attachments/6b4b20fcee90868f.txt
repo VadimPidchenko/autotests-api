@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDE0OjAyOjIxLjA2MDA1NCIsInVzZXJfaWQiOiJlOGQ1NmY5Zi1kNTFhLTQ2YzEtYjM3OC1lMzg1YTJiMDc4MTgifQ.GwNM_jo0eTI-dODkvvEXpeY_T7za-j0tIa63ikal2ro'\
+-H 'content-length: 390'\
+-H 'content-type: application/json'\
+-d '{"title":"Marriage natural very chair check.","maxScore":98,"minScore":7,"description":"Role less marriage career finish Mr business. Beyond tonight always white sure yet.\nBecome force night mind you television owner. Ok learn community page final.","estimatedTime":"10 weeks","previewFileId":"9b4259a0-554a-40e3-8d7e-9c5d5e523717","createdByUserId":"e8d56f9f-d51a-46c1-b378-e385a2b07818"}'
